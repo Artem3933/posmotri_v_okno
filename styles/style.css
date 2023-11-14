@@ -72,7 +72,7 @@ video {
 .result__video-container {
   position: relative;
   inline-size: 711px;
-  margin: 0 0 11px;
+  margin: 0 0 16px;
 }
 
 .search-form {
@@ -229,7 +229,6 @@ video {
   position: relative;
   overflow-y: scroll;
   block-size: 298px;
-  scrollbar-width: none;
 }
 
 
