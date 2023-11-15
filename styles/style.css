@@ -1,5 +1,6 @@
 
 
+
 *,
 *::before,
 *::after {
@@ -207,6 +208,7 @@ video {
 }
 
 .content__details {
+  overflow-y: scroll;
   inline-size: 100%;
 }
 
@@ -227,7 +229,6 @@ video {
 
 .content__list {
   position: relative;
-  overflow-y: scroll;
   block-size: 298px;
 }
 
