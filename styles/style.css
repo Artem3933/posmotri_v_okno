@@ -1,6 +1,4 @@
 
-
-
 *,
 *::before,
 *::after {
@@ -144,10 +142,6 @@ video {
   outline: 1px solid #FFF;
 }
 
-.search-form__textfield:focus {
-  outline: none;
-}
-
 .search-form__textfield:focus-visible {
   outline: none;
 }
@@ -208,7 +202,6 @@ video {
 }
 
 .content__details {
-  overflow-y: scroll;
   inline-size: 100%;
 }
 
@@ -228,14 +221,11 @@ video {
 
 
 .content__list {
+  overflow-y: scroll;
   position: relative;
   block-size: 298px;
 }
 
-
-.content__list::-webkit-scrollbar {
-  display: none;
-}
 
 .content__list-item:not(:last-child) {
   margin: 0 0 34px;
